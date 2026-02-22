@@ -14,21 +14,13 @@
 
 2. Image generation Phase using custom prompts:
 
-    python src/main.py \
-    "data=custom,num_images=100,seed=42" \
-    "proc=base"
+    python src/main.py \ "data=custom,num_images=100,seed=42" \ "proc=base"
     
-    python src/main.py \
-    "data=custom,num_images=100,protect=[gender],remove,hdim=100,seed=42" \
-    "proc=fpca"
+    python src/main.py \ "data=custom,num_images=100,protect=[gender],remove,hdim=100,seed=42" \ "proc=fpca"
     
-    python src/main.py \
-    "data=custom,num_images=100,protect=[race],remove,hdim=100,seed=42" \
-    "proc=fpca"
+    python src/main.py \ "data=custom,num_images=100,protect=[race],remove,hdim=100,seed=42" \ "proc=fpca"
     
-    CUDA_VISIBLE_DEVICES=1 python src/main.py \
-    "data=custom,num_images=100,protect=[gender,race],remove,hdim=100,seed=42" \
-    "proc=fpca"
+    python src/main.py \ "data=custom,num_images=100,protect=[gender,race],remove,hdim=100,seed=42" \ "proc=fpca"
 
 3. Download models for bias metrics calculation:
    
@@ -38,13 +30,11 @@
     
     Download FairFace model:
    
-    curl -L -o metrics_output/fair_face_model/res34_fair_align_multi_7_20190809.pt \
-    https://huggingface.co/wmpscc/StyleGene/resolve/main/res34_fair_align_multi_7_20190809.pt
+    curl -L -o metrics_output/fair_face_model/res34_fair_align_multi_7_20190809.pt \ https://huggingface.co/wmpscc/StyleGene/resolve/main/res34_fair_align_multi_7_20190809.pt
     
     Download dlib landmark model:
    
-    curl -L -o metrics_output/dlib_models/shape_predictor_5_face_landmarks.dat \
-    https://huggingface.co/matt3ounstable/dlib_predictor_recognition/resolve/main/shape_predictor_5_face_landmarks.dat
+    curl -L -o metrics_output/dlib_models/shape_predictor_5_face_landmarks.dat \ https://huggingface.co/matt3ounstable/dlib_predictor_recognition/resolve/main/shape_predictor_5_face_landmarks.dat
 
 
 5. Calculate the metrics:
