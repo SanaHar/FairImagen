@@ -33,6 +33,7 @@
 3. Download models for bias metrics calculation:
    
     mkdir -p metrics_output/fair_face_model
+
     mkdir -p metrics_output/dlib_models
     
     Download FairFace model:
@@ -44,7 +45,7 @@
     https://huggingface.co/matt3ounstable/dlib_predictor_recognition/resolve/main/shape_predictor_5_face_landmarks.dat
 
 
-4. Calculate the metrics:
+5. Calculate the metrics:
    
     conda install -c conda-forge dlib cmake
 
