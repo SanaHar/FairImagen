@@ -1,16 +1,10 @@
 1. Calibration Phase: 
 
-    python src/main.py \
-    "data=calibration_gender,num_images=100,extract=True,protect=[gender]" \
-    "proc=base"
+    python src/main.py \ "data=calibration_gender,num_images=100,extract=True,protect=[gender]" \ "proc=base"
     
-    python src/main.py \
-    "data=calibration_race,num_images=100,extract=True,protect=[race]" \
-    "proc=base"
+    python src/main.py \ "data=calibration_race,num_images=100,extract=True,protect=[race]" \ "proc=base"
     
-    python src/main.py \
-    "data=calibration_intersectional,num_images=100,extract=True,protect=[gender,race]" \
-    "proc=base"
+    python src/main.py \ "data=calibration_intersectional,num_images=100,extract=True,protect=[gender,race]" \ "proc=base"
 
 2. Image generation Phase using custom prompts:
 
