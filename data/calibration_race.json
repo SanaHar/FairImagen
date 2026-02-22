@@ -1,0 +1,8 @@
+[
+  { "prompt": "a photo of a White person", "protect": "race", "cat": "white" },
+  { "prompt": "a photo of a Black person", "protect": "race", "cat": "black" },
+  { "prompt": "a photo of an Asian person", "protect": "race", "cat": "asian" },
+  { "prompt": "a photo of an Indian person", "protect": "race", "cat": "indian" },
+  { "prompt": "a photo of a Chinese person", "protect": "race", "cat": "chinese" },
+  { "prompt": "a photo of an African person", "protect": "race", "cat": "african" }
+]

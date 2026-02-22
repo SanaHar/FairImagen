@@ -1,0 +1,4 @@
+[
+  { "prompt": "a photo of a male person", "protect": "gender", "cat": "male" },
+  { "prompt": "a photo of a female person", "protect": "gender", "cat": "female" }
+]

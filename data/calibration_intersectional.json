@@ -1,0 +1,14 @@
+[
+  { "prompt": "a photo of a White male person", "protect": "gender,race", "cat": "white_man" },
+  { "prompt": "a photo of a White female person", "protect": "gender,race", "cat": "white_woman" },
+  { "prompt": "a photo of a Black male person", "protect": "gender,race", "cat": "black_man" },
+  { "prompt": "a photo of a Black female person", "protect": "gender,race", "cat": "black_woman" },
+  { "prompt": "a photo of an Asian male person", "protect": "gender,race", "cat": "asian_man" },
+  { "prompt": "a photo of an Asian female person", "protect": "gender,race", "cat": "asian_woman" },
+  { "prompt": "a photo of an Indian male person", "protect": "gender,race", "cat": "indian_man" },
+  { "prompt": "a photo of an Indian female person", "protect": "gender,race", "cat": "indian_woman" },
+  { "prompt": "a photo of an African male person", "protect": "gender,race", "cat": "African_man" },
+  { "prompt": "a photo of an African female person", "protect": "gender,race", "cat": "African_woman" },
+  { "prompt": "a photo of a Chinese male person", "protect": "gender,race", "cat": "chinese_man" },
+  { "prompt": "a photo of a Chinese female person", "protect": "gender,race", "cat": "chinese_woman" }
+]
