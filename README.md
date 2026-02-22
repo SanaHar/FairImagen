@@ -37,10 +37,12 @@
     mkdir -p metrics_output/dlib_models
     
     Download FairFace model:
+   
     curl -L -o metrics_output/fair_face_model/res34_fair_align_multi_7_20190809.pt \
     https://huggingface.co/wmpscc/StyleGene/resolve/main/res34_fair_align_multi_7_20190809.pt
     
     Download dlib landmark model:
+   
     curl -L -o metrics_output/dlib_models/shape_predictor_5_face_landmarks.dat \
     https://huggingface.co/matt3ounstable/dlib_predictor_recognition/resolve/main/shape_predictor_5_face_landmarks.dat
 
